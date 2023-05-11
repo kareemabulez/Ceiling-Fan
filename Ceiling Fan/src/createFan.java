@@ -51,7 +51,7 @@ public class Fan {
 
     //To check the direction of the fan
     public void directionStatus() {
-        System.out.println(fanSpeed == 0 ? "\nFan is currently off"
+        System.out.println(fanSpeed == OFF ? "\nFan is currently off"
                 : ("\nDirection is: " + (directionReversed ? "backwards" : "forward") + "\n"));
     }
 }
